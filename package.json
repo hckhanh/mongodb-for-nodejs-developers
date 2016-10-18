@@ -4,13 +4,14 @@
   "description": "A project for MongoDB for Node.js developers course",
   "main": "app.js",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "mongodb": "^2.2.10",
     "nunjucks": "^2.5.2"
   },
   "devDependencies": {},
   "scripts": {
-    "start":"node app.js",
+    "start": "node app.js",
     "test": "npm test"
   },
   "keywords": [
